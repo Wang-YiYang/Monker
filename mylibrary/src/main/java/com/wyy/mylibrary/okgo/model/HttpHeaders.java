@@ -3,8 +3,8 @@ package com.wyy.mylibrary.okgo.model;
 import android.os.Build;
 import android.text.TextUtils;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
 
 import org.json.JSONException;
 import org.json.JSONObject;

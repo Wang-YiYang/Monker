@@ -1,8 +1,9 @@
 package com.wyy.mylibrary.okrx;
 
-import com.lzy.okgo.adapter.Call;
-import com.lzy.okgo.adapter.CallAdapter;
-import com.lzy.okgo.model.Response;
+
+import com.wyy.mylibrary.okgo.adapter.Call;
+import com.wyy.mylibrary.okgo.adapter.CallAdapter;
+import com.wyy.mylibrary.okgo.model.Response;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

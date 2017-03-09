@@ -2,10 +2,10 @@ package com.wyy.mylibrary.okgo.utils;
 
 import android.text.TextUtils;
 
-import com.lzy.okgo.cache.CacheEntity;
-import com.lzy.okgo.cache.CacheMode;
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.request.BaseRequest;
+import com.wyy.mylibrary.okgo.cache.CacheEntity;
+import com.wyy.mylibrary.okgo.cache.CacheMode;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
 
 import java.util.Locale;
 import java.util.StringTokenizer;

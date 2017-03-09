@@ -1,6 +1,7 @@
 package com.wyy.mylibrary.okserver.listener;
 
-import com.lzy.okserver.download.DownloadInfo;
+
+import com.wyy.mylibrary.okserver.download.DownloadInfo;
 
 /**
  * ================================================

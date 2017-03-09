@@ -3,10 +3,10 @@ package com.wyy.mylibrary.okserver.download;
 import android.os.Environment;
 import android.text.TextUtils;
 
-import com.lzy.okgo.request.BaseRequest;
-import com.lzy.okserver.download.db.DownloadDBManager;
-import com.lzy.okserver.listener.DownloadListener;
-import com.lzy.okserver.task.ExecutorWithListener;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
+import com.wyy.mylibrary.okserver.download.db.DownloadDBManager;
+import com.wyy.mylibrary.okserver.listener.DownloadListener;
+import com.wyy.mylibrary.okserver.task.ExecutorWithListener;
 
 import java.io.File;
 import java.io.Serializable;

@@ -3,8 +3,9 @@ package com.wyy.mylibrary.okserver.download;
 import android.os.Handler;
 import android.os.Message;
 
-import com.lzy.okserver.listener.DownloadListener;
-import com.lzy.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okserver.listener.DownloadListener;
+
 
 /**
  * ================================================

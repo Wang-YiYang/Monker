@@ -4,8 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 import android.util.Log;
-
-import com.lzy.okgo.OkGo;
+import com.wyy.mylibrary.okgo.OkGo;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

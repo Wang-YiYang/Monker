@@ -3,8 +3,8 @@ package com.wyy.mylibrary.okserver.download.db;
 import android.content.ContentValues;
 import android.database.Cursor;
 
-import com.lzy.okserver.download.DownloadInfo;
-import com.lzy.okgo.cache.DataBaseDao;
+import com.wyy.mylibrary.okgo.cache.DataBaseDao;
+import com.wyy.mylibrary.okserver.download.DownloadInfo;
 
 import java.util.List;
 

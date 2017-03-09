@@ -1,8 +1,9 @@
 package com.wyy.mylibrary.okgo.adapter;
 
-import com.lzy.okgo.callback.AbsCallback;
-import com.lzy.okgo.model.Response;
-import com.lzy.okgo.request.BaseRequest;
+
+import com.wyy.mylibrary.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okgo.model.Response;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
 
 /**
  * ================================================

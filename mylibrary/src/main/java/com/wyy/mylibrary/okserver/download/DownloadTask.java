@@ -3,11 +3,11 @@ package com.wyy.mylibrary.okserver.download;
 import android.os.Message;
 import android.text.TextUtils;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.utils.HttpUtils;
-import com.lzy.okserver.download.db.DownloadDBManager;
-import com.lzy.okserver.listener.DownloadListener;
-import com.lzy.okserver.task.PriorityAsyncTask;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.utils.HttpUtils;
+import com.wyy.mylibrary.okserver.download.db.DownloadDBManager;
+import com.wyy.mylibrary.okserver.listener.DownloadListener;
+import com.wyy.mylibrary.okserver.task.PriorityAsyncTask;
 
 import java.io.BufferedInputStream;
 import java.io.File;

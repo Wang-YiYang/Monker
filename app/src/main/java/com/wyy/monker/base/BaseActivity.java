@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import butterknife.ButterKnife;
 
 /**
- * 作者：王一阳
  * 时间：2017/3/8
  * 描述：基础界面
  */

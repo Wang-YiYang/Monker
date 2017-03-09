@@ -3,8 +3,8 @@ package com.wyy.mylibrary.okgo.cache;
 import android.content.ContentValues;
 import android.database.Cursor;
 
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

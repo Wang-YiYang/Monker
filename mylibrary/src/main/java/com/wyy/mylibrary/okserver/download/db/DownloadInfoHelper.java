@@ -3,9 +3,10 @@ package com.wyy.mylibrary.okserver.download.db;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.utils.OkLogger;
-import com.lzy.okserver.download.DownloadInfo;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okserver.download.DownloadInfo;
+
 
 /**
  * ================================================

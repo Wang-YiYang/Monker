@@ -2,17 +2,17 @@ package com.wyy.mylibrary.okgo.request;
 
 import android.text.TextUtils;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.adapter.CacheCall;
-import com.lzy.okgo.adapter.Call;
-import com.lzy.okgo.adapter.CallAdapter;
-import com.lzy.okgo.adapter.DefaultCallAdapter;
-import com.lzy.okgo.cache.CacheEntity;
-import com.lzy.okgo.cache.CacheMode;
-import com.lzy.okgo.callback.AbsCallback;
-import com.lzy.okgo.convert.Converter;
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.model.HttpParams;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.adapter.CacheCall;
+import com.wyy.mylibrary.okgo.adapter.Call;
+import com.wyy.mylibrary.okgo.adapter.CallAdapter;
+import com.wyy.mylibrary.okgo.adapter.DefaultCallAdapter;
+import com.wyy.mylibrary.okgo.cache.CacheEntity;
+import com.wyy.mylibrary.okgo.cache.CacheMode;
+import com.wyy.mylibrary.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okgo.convert.Converter;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.model.HttpParams;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -383,7 +383,7 @@ public abstract class BaseRequest<R extends BaseRequest> {
     @SuppressWarnings("unchecked")
     public <T> void execute(AbsCallback<T> callback) {
         mCallback = callback;
-        mConverter = callback;
+        mConverter =  callback;
         new CacheCall<T>(this).execute(callback);
     }
 }

@@ -1,6 +1,7 @@
 package com.wyy.mylibrary.okserver.download.db;
 
-import com.lzy.okserver.download.DownloadInfo;
+
+import com.wyy.mylibrary.okserver.download.DownloadInfo;
 
 import java.util.List;
 import java.util.concurrent.locks.Lock;

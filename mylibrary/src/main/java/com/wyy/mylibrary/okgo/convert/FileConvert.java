@@ -3,10 +3,10 @@ package com.wyy.mylibrary.okgo.convert;
 import android.os.Environment;
 import android.text.TextUtils;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.callback.AbsCallback;
-import com.lzy.okgo.utils.HttpUtils;
-import com.lzy.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okgo.utils.HttpUtils;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
 
 import java.io.File;
 import java.io.FileOutputStream;

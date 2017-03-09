@@ -1,7 +1,8 @@
 package com.wyy.mylibrary.okgo.request;
 
-import com.lzy.okgo.model.HttpParams;
-import com.lzy.okgo.utils.HttpUtils;
+
+import com.wyy.mylibrary.okgo.model.HttpParams;
+import com.wyy.mylibrary.okgo.utils.HttpUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

@@ -1,6 +1,7 @@
 package com.wyy.mylibrary.okrx;
 
-import com.lzy.okgo.model.Response;
+
+import com.wyy.mylibrary.okgo.model.Response;
 
 /** Exception for an unexpected, non-2xx HTTP response. */
 public final class HttpException extends Exception {

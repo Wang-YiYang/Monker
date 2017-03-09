@@ -2,18 +2,18 @@ package com.wyy.mylibrary.okgo.adapter;
 
 import android.graphics.Bitmap;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.cache.CacheEntity;
-import com.lzy.okgo.cache.CacheManager;
-import com.lzy.okgo.cache.CacheMode;
-import com.lzy.okgo.callback.AbsCallback;
-import com.lzy.okgo.callback.AbsCallbackWrapper;
-import com.lzy.okgo.exception.OkGoException;
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.model.Response;
-import com.lzy.okgo.request.BaseRequest;
-import com.lzy.okgo.utils.HeaderParser;
-import com.lzy.okgo.utils.HttpUtils;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.cache.CacheEntity;
+import com.wyy.mylibrary.okgo.cache.CacheManager;
+import com.wyy.mylibrary.okgo.cache.CacheMode;
+import com.wyy.mylibrary.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okgo.callback.AbsCallbackWrapper;
+import com.wyy.mylibrary.okgo.exception.OkGoException;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.model.Response;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
+import com.wyy.mylibrary.okgo.utils.HeaderParser;
+import com.wyy.mylibrary.okgo.utils.HttpUtils;
 
 import java.io.IOException;
 import java.net.SocketTimeoutException;

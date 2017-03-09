@@ -2,9 +2,9 @@ package com.wyy.mylibrary.okserver.upload;
 
 import android.os.Message;
 
-import com.lzy.okserver.listener.UploadListener;
-import com.lzy.okserver.task.PriorityAsyncTask;
-import com.lzy.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okgo.callback.AbsCallback;
+import com.wyy.mylibrary.okserver.listener.UploadListener;
+import com.wyy.mylibrary.okserver.task.PriorityAsyncTask;
 
 import java.io.IOException;
 

@@ -2,8 +2,8 @@ package com.wyy.mylibrary.okgo.utils;
 
 import android.text.TextUtils;
 
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.model.HttpParams;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.model.HttpParams;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;

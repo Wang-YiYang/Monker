@@ -3,8 +3,9 @@ package com.wyy.mylibrary.okgo.cache;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.utils.OkLogger;
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
+
 
 class CacheHelper extends SQLiteOpenHelper {
 

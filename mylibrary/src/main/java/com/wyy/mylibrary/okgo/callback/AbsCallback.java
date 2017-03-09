@@ -1,8 +1,8 @@
 package com.wyy.mylibrary.okgo.callback;
 
-import com.lzy.okgo.cache.CacheMode;
-import com.lzy.okgo.convert.Converter;
-import com.lzy.okgo.request.BaseRequest;
+
+import com.wyy.mylibrary.okgo.convert.Converter;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
 
 import okhttp3.Call;
 import okhttp3.Response;

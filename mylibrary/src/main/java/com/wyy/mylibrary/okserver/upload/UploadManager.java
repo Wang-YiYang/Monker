@@ -1,9 +1,10 @@
 package com.wyy.mylibrary.okserver.upload;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.request.BaseBodyRequest;
-import com.lzy.okgo.request.PostRequest;
-import com.lzy.okserver.listener.UploadListener;
+
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.request.BaseBodyRequest;
+import com.wyy.mylibrary.okgo.request.PostRequest;
+import com.wyy.mylibrary.okserver.listener.UploadListener;
 
 import java.io.File;
 import java.util.ArrayList;

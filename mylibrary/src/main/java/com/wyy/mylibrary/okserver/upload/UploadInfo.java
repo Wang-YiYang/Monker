@@ -1,8 +1,9 @@
 package com.wyy.mylibrary.okserver.upload;
 
-import com.lzy.okserver.download.DownloadInfo;
-import com.lzy.okserver.listener.UploadListener;
-import com.lzy.okgo.request.BaseBodyRequest;
+
+import com.wyy.mylibrary.okgo.request.BaseBodyRequest;
+import com.wyy.mylibrary.okserver.download.DownloadInfo;
+import com.wyy.mylibrary.okserver.listener.UploadListener;
 
 /**
  * ================================================

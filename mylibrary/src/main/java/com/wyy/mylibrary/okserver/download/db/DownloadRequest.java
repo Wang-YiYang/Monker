@@ -1,15 +1,16 @@
 package com.wyy.mylibrary.okserver.download.db;
 
-import com.lzy.okgo.cache.CacheMode;
-import com.lzy.okgo.model.HttpHeaders;
-import com.lzy.okgo.model.HttpParams;
-import com.lzy.okgo.request.BaseRequest;
-import com.lzy.okgo.request.DeleteRequest;
-import com.lzy.okgo.request.GetRequest;
-import com.lzy.okgo.request.HeadRequest;
-import com.lzy.okgo.request.OptionsRequest;
-import com.lzy.okgo.request.PostRequest;
-import com.lzy.okgo.request.PutRequest;
+
+import com.wyy.mylibrary.okgo.cache.CacheMode;
+import com.wyy.mylibrary.okgo.model.HttpHeaders;
+import com.wyy.mylibrary.okgo.model.HttpParams;
+import com.wyy.mylibrary.okgo.request.BaseRequest;
+import com.wyy.mylibrary.okgo.request.DeleteRequest;
+import com.wyy.mylibrary.okgo.request.GetRequest;
+import com.wyy.mylibrary.okgo.request.HeadRequest;
+import com.wyy.mylibrary.okgo.request.OptionsRequest;
+import com.wyy.mylibrary.okgo.request.PostRequest;
+import com.wyy.mylibrary.okgo.request.PutRequest;
 
 import java.io.Serializable;
 

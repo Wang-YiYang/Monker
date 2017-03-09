@@ -1,6 +1,7 @@
 package com.wyy.mylibrary.okserver.listener;
 
-import com.lzy.okserver.upload.UploadInfo;
+
+import com.wyy.mylibrary.okserver.upload.UploadInfo;
 
 import okhttp3.Response;
 

@@ -2,7 +2,7 @@ package com.wyy.mylibrary.okgo.callback;
 
 import android.graphics.Bitmap;
 
-import com.lzy.okgo.convert.BitmapConvert;
+import com.wyy.mylibrary.okgo.convert.BitmapConvert;
 
 import okhttp3.Response;
 

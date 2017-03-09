@@ -1,7 +1,8 @@
 package com.wyy.mylibrary.okgo.request;
 
-import com.lzy.okgo.OkGo;
-import com.lzy.okgo.utils.OkLogger;
+
+import com.wyy.mylibrary.okgo.OkGo;
+import com.wyy.mylibrary.okgo.utils.OkLogger;
 
 import java.io.IOException;
 

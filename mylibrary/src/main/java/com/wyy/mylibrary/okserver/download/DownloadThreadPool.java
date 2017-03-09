@@ -1,7 +1,8 @@
 package com.wyy.mylibrary.okserver.download;
 
-import com.lzy.okserver.task.ExecutorWithListener;
-import com.lzy.okserver.task.PriorityBlockingQueue;
+
+import com.wyy.mylibrary.okserver.task.ExecutorWithListener;
+import com.wyy.mylibrary.okserver.task.PriorityBlockingQueue;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
