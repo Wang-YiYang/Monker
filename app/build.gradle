@@ -12,7 +12,13 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+
+        debug {
+            buildConfigField('boolean', 'isOpen', 'true');
+        }
+
         release {
+            buildConfigField('boolean', 'isOpen', 'false');
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -25,6 +31,9 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+
     //v7支持库
     compile 'com.android.support:appcompat-v7:25.2.0'
     //design支持库
@@ -33,11 +42,16 @@ dependencies {
     //注解
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
-
     //图片加载
     compile 'com.github.bumptech.glide:glide:3.7.0'
     //tab导航栏
     compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
     //我的库
     compile project(':mylibrary')
+//    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+//    compile 'io.reactivex.rxjava2:rxjava:2.0.7'
+//    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    //轮播图
+    compile 'com.bigkoo:convenientbanner:2.0.5'
 }

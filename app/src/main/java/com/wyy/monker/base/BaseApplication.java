@@ -3,6 +3,7 @@ package com.wyy.monker.base;
 import android.app.Application;
 import android.content.Context;
 
+import com.umeng.analytics.MobclickAgent;
 import com.wyy.monker.utils.CrashHandler;
 import com.wyy.mylibrary.okgo.OkGo;
 import com.wyy.mylibrary.okgo.cache.CacheEntity;
@@ -25,6 +26,7 @@ public class BaseApplication extends Application {
         super.onCreate();
         mContext = this;
         nIntance = this;
+        MobclickAgent.setDebugMode(true);
         initCrashHandler();
         initOkGo();
 

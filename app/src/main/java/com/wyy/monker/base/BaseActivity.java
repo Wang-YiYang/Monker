@@ -1,8 +1,11 @@
 package com.wyy.monker.base;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.umeng.analytics.MobclickAgent;
 
 import java.util.ArrayList;
 
@@ -15,6 +18,7 @@ import butterknife.ButterKnife;
 
 public abstract class BaseActivity extends AppCompatActivity {
     public static ArrayList<BaseActivity> mActivityList = new ArrayList<BaseActivity>();
+    protected Context mContext;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -22,6 +26,9 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getLayoutId());
         ButterKnife.bind(this);
         mActivityList.add(this);
+        mContext=this;
+        MobclickAgent.openActivityDurationTrack(false);
+        MobclickAgent.setScenarioType(this, MobclickAgent.EScenarioType.E_UM_NORMAL);
     }
 
     protected abstract int getLayoutId();
@@ -36,5 +43,15 @@ public abstract class BaseActivity extends AppCompatActivity {
             if (activity != null)
                 activity.finish();
         }
+    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

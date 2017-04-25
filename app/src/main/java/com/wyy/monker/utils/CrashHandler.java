@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.widget.Toast;
 
+import com.umeng.analytics.MobclickAgent;
 import com.wyy.monker.MainActivity;
 import com.wyy.monker.base.BaseActivity;
 
@@ -123,6 +124,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
             } catch (InterruptedException e) {
                 Log.e(TAG, "Error : ", e);
             }
+            MobclickAgent.onKillProcess(mContext);
             android.os.Process.killProcess(android.os.Process.myPid());
             System.exit(10);
         }
