@@ -31,6 +31,10 @@ public abstract class BaseActivity extends AppCompatActivity {
         MobclickAgent.setScenarioType(this, MobclickAgent.EScenarioType.E_UM_NORMAL);
     }
 
+    /**
+     * 设置布局文件
+     * @return
+     */
     protected abstract int getLayoutId();
 
 
