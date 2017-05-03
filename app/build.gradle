@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.wyy.monker"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -48,10 +48,15 @@ dependencies {
     compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
     //我的库
     compile project(':mylibrary')
-//    compile 'com.squareup.retrofit2:retrofit:2.2.0'
-//    compile 'io.reactivex.rxjava2:rxjava:2.0.7'
-//    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-
+    //rxAndroid/rxjava
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    // retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+//    //日志输出库↓
+    compile 'com.orhanobut:logger:1.15'
     //轮播图
     compile 'com.bigkoo:convenientbanner:2.0.5'
 }
